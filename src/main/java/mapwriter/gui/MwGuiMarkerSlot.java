@@ -178,7 +178,7 @@ public class MwGuiMarkerSlot extends GuiSlot {
         this.mouseX = mouseX;
         this.mouseY = mouseY;
 
-        if (Mouse.isButtonDown(0) && this.func_148125_i()){
+        if (Mouse.isButtonDown(0) && this.func_148125_i()){ // func_148125_i() - getEnabled
 
             int selectedIndex = this.func_148124_c(this.width/2,mouseY);
 

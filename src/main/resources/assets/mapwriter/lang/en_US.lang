@@ -8,13 +8,14 @@ key.mw_teleport=Teleport to waypoint
 key.mw_zoom_in=Minimap zoom in
 key.mw_zoom_out=Minimap zoom out
 key.mw_underground_mode=Underground map mode
+key.mw_control=Control key
 
 # GUI
 mw.gui.mwgui.help=Help
 mw.gui.mwgui.options=Options
-mw.gui.mwgui.dimension=dimension: %d
+mw.gui.mwgui.dimension=Dimension
 mw.gui.mwgui.group=group
-mw.gui.mwgui.overlay=overlay: %s
+mw.gui.mwgui.overlay=Overlay
 mw.gui.mwgui.markers=Markers
 mw.gui.mwgui.keys=Keys
 mw.gui.mwgui.helptext.1=Left click drag or arrow keys pan the map.
@@ -117,3 +118,65 @@ mw.gui.mwguimarkerSlotNew.markerName=Marker Name
 mw.gui.mwguimarkerSlotNew.markerCoordinate= Marker Coordinate
 mw.gui.mwguimarkerSlotNew.markerDistance= Distance to Marker
 mw.gui.mwguimarkerSlotNew.markerCompassPoint= Direction to Marker
+
+mw.gui.mwguimarkersearch.markersCount=Total markers: %s
+mw.gui.mwguimarkermanage.title=Manage markers
+mw.gui.mwguimarkermanage.markersCount=Total markers: %s
+mw.gui.mwguimarkermanage.currentGroup=Current group
+mw.gui.mwguimarkermanage.actionWithSelectedTitle=Action with selected markers
+mw.gui.mwguimarkermanage.setSelectedNameLabel=Assign a name:
+mw.gui.mwguimarkermanage.setSelectedGroupLabel=Assign a group:
+mw.gui.mwguimarkermanage.setSelectedColorLabel=Assign a color:
+mw.gui.mwguimarkermanage.selectAllButtonOn=Select all
+mw.gui.mwguimarkermanage.selectAllButtonOff=Deselect all
+mw.gui.mwguimarkermanage.applybutton=Apply
+
+mw.gui.mwguimportmarkerfromjm.title=Import markers from JourneyMap`s waypoint
+mw.gui.mwguimportmarkerfromjm.currentWorldTitle= Your current World: %s(%s)
+mw.gui.mwguimportmarkerfromjm.selectWorld=Select world
+mw.gui.mwguimportmarkerfromjm.jmWaypointsCount=JourneyMap`s waypoints found: %s
+mw.gui.mwguimportmarkerfromjm.importButton=Import
+mw.gui.mwguimportmarkerfromjm.cancelButton=Cancel
+mw.gui.mwguimportmarkerfromjm.chooseFolderButton=Choose folder
+mw.gui.mwguimportmarkerfromjm.text1=You can load this waypoints as
+mw.gui.mwguimportmarkerfromjm.text2=mapwriter`s markers.
+mw.gui.mwguimportmarkerfromjm.text3=These markers will be placed in "importJM"
+mw.gui.mwguimportmarkerfromjm.text4=group. All previous markers from this group
+mw.gui.mwguimportmarkerfromjm.text5=will be delete
+
+mw.gui.mwguimanagegroup.title=Manage group
+mw.gui.mwguimanagegroup.renameGroup=Rename group
+mw.gui.mwguimanagegroup.group=Group
+mw.gui.mwguimanagegroup.rename=rename to
+mw.gui.mwguimanagegroup.buttonRename=Rename
+mw.gui.mwguimanagegroup.changeOrder=Change the order
+mw.gui.mwguimanagegroup.errorEmptyName=New name can`t be empty
+mw.gui.mwguimanagegroup.errorDuplicateName=This group name already exists
+mw.gui.mwguimanagegroup.errorSystemGroupName=This group`s name can`t rename
+
+
+mw.gui.mwguiuserpreset.title=User Preset Marker
+mw.gui.mwguiuserpreset.groupPreset=Group preset
+mw.gui.mwguiuserpreset.notSavedText=Some items were not saved and will be lost when this button is pressed
+mw.gui.mwguiuserpreset.buttonSave=Save
+mw.gui.mwguiuserpreset.buttonClose=Close
+mw.gui.mwguiuserpreset.buttonHelp=Help
+mw.gui.mwguiuserpreset.buttonClear=Clear
+
+mwgui.mwguiquickmarker.title=User preset
+mwgui.mwguiquickmarker.markertitle=User markers Preset
+mwgui.mwguiquickmarker.grouptitle=User group Preset
+mwgui.mwguiquickmarker.ExitLabel=Back to game
+mwgui.mwguiquickmarker.prevLevel=Back to group
+mwgui.mwguiquickmarker.markerdialog=Create marker GUI
+
+
+
+
+
+# Menu
+mw.gui.mwguimenumarkerssearch=Search markers
+mw.gui.mwguimenumarkersmanage=Manage markers
+mw.gui.mwguimenumarkersgroup=Manage groups
+mw.gui.mwguimenumarkersimportJM=Import markers from JM
+mw.gui.mwguimenumarkersuserpreset="Quick markers" preset

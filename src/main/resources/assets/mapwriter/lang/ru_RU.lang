@@ -12,9 +12,9 @@ key.mw_underground_mode=Режим пещер
 # GUI
 mw.gui.mwgui.help=Помощь
 mw.gui.mwgui.options=Настройки
-mw.gui.mwgui.dimension=измерение: %d
-mw.gui.mwgui.group=группа
-mw.gui.mwgui.overlay=наложение: %s
+mw.gui.mwgui.dimension=Измерение:
+mw.gui.mwgui.group=Группа
+mw.gui.mwgui.overlay=Наложение:
 mw.gui.mwgui.markers=Маркеры
 mw.gui.mwgui.keys=Клавиши
 mw.gui.mwgui.helptext.1=Для прокрутки карты используйте ЛКМ или стрелки.
@@ -117,3 +117,60 @@ mw.gui.mwguimarkerSlotNew.markerName=Имя маркера
 mw.gui.mwguimarkerSlotNew.markerCoordinate= Координаты маркера
 mw.gui.mwguimarkerSlotNew.markerDistance= Расстояние до маркера
 mw.gui.mwguimarkerSlotNew.markerCompassPoint= Направление к маркеру
+
+mw.gui.mwguimarkermanage.title=Управление маркерами
+mw.gui.mwguimarkermanage.markersCount=Всего маркеров: %s
+mw.gui.mwguimarkermanage.currentGroup=Текущая группа
+mw.gui.mwguimarkermanage.actionWithSelectedTitle=Действия с выделенными маркерами
+mw.gui.mwguimarkermanage.setSelectedNameLabel=Назначить имя:
+mw.gui.mwguimarkermanage.setSelectedGroupLabel=Назначить группу:
+mw.gui.mwguimarkermanage.setSelectedColorLabel=Назначить цвет:
+mw.gui.mwguimarkermanage.selectAllButtonOn=Выделить все
+mw.gui.mwguimarkermanage.selectAllButtonOff=Снять выделение
+mw.gui.mwguimarkermanage.applybutton=Применить
+
+
+
+mw.gui.mwguimportmarkerfromjm.title=Импорт маркеров из JourneyMap
+mw.gui.mwguimportmarkerfromjm.currentWorldTitle= Ваш текущий мир: %s
+mw.gui.mwguimportmarkerfromjm.jmWaypointsCount=Найдено маркеров JourneyMap: %s
+mw.gui.mwguimportmarkerfromjm.importButton=Импорт
+mw.gui.mwguimportmarkerfromjm.cancelButton=Отмена
+mw.gui.mwguimportmarkerfromjm.chooseFolderButton=Выбор папки
+mw.gui.mwguimportmarkerfromjm.text1=Вы можете загрузить эти маркеры как
+mw.gui.mwguimportmarkerfromjm.text2=маркеры mapwriter.
+mw.gui.mwguimportmarkerfromjm.text3=Эти маркеры будут помещены в группу "importJM"
+mw.gui.mwguimportmarkerfromjm.text4=Все предыдущие маркеры из этой группы
+mw.gui.mwguimportmarkerfromjm.text5=будут удалены.
+
+mw.gui.mwguimanagegroup.title=Управление группами
+mw.gui.mwguimanagegroup.renameGroup=Переименовать группу
+mw.gui.mwguimanagegroup.group=Группа
+mw.gui.mwguimanagegroup.rename=Переименовать в
+mw.gui.mwguimanagegroup.buttonRename=Переименовать
+mw.gui.mwguimanagegroup.changeOrder=Изменить порядок
+mw.gui.mwguimanagegroup.errorEmptyName=Новое имя не может быть пустым
+mw.gui.mwguimanagegroup.errorDuplicateName=Такая группа уже существует
+mw.gui.mwguimanagegroup.errorSystemGroupName=Это имя группы нельзя переименовать
+
+mw.gui.mwguiuserpreset.title=Предустановки "Быстрые маркеры"
+mw.gui.mwguiuserpreset.groupPreset=Предустановки группы
+mw.gui.mwguiuserpreset.notSavedText=Некоторые элементы не были сохранены и при нажатии на эту кнопку будут потеряны
+mw.gui.mwguiuserpreset.buttonSave=Сохранить
+mw.gui.mwguiuserpreset.buttonClose=Закрыть
+mw.gui.mwguiuserpreset.buttonHelp=Помощь
+mw.gui.mwguiuserpreset.buttonClear=Очистить
+
+mwgui.mwguiquickmarker.title=Предустановки
+mwgui.mwguiquickmarker.markertitle=Предустановки маркеров
+mwgui.mwguiquickmarker.grouptitle=Предустановки групп
+mwgui.mwguiquickmarker.ExitLabel=Назад к игре
+mwgui.mwguiquickmarker.prevLevel=На уровень вверх
+mwgui.mwguiquickmarker.markerdialog=Создать маркер через GUI
+
+# Menu
+mw.gui.mwguimenumarkerssearch=Поиск маркеров
+mw.gui.mwguimenumarkersmanage=Управление маркерами
+mw.gui.mwguimenumarkersgroup=Управление группами
+mw.gui.mwguimenumarkersimportJM=Импорт маркеров из JM
+mw.gui.mwguimenumarkersuserpreset=Предустановки "Быстрые маркеры"
