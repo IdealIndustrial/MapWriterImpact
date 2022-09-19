@@ -2,6 +2,7 @@ Mapwriter-unoffical
 =========
 
 MapWriter: A minimap mod for Minecraft
+
 For Impact modpack.
 
 Instructions for development:
