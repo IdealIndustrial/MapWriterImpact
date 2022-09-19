@@ -47,6 +47,7 @@ public class ClientProxy extends CommonProxy {
 		MwAPI.registerDataProvider("OreVeinGrid", new OverlayVeinsGrid());
 		MwAPI.registerDataProvider("FluidsGrid", new OverlayFluidsGrid());
 		MwAPI.registerDataProvider("RegionGrid", new OverlayRegionsGrid());
+		MwAPI.registerDataProvider("ImpactVeinGrid", new OverlayIVeinsGrid());		
 		// MwAPI.registerDataProvider("Checker", new OverlayChecker());
 		// MwAPI.setCurrentDataProvider("Slime");
 	}
